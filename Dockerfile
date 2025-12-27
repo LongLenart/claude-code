@@ -4,4 +4,4 @@ RUN npm install -g @anthropic-ai/claude-code
 
 WORKDIR /workspace
 
-CMD ["sh"]
+CMD ["tail", "-f", "/dev/null"]
